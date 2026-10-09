@@ -1,2 +1,2 @@
-station,temp_C,rain_rate_mm_h,wind_speed_km_h,wind_direction
-apaseoalto,16,0.0,6,NNE
+station,temp,rainr,wind_speed,wind_direction
+apaseoalto,16,0.0,10,N
