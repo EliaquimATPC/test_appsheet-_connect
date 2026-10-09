@@ -1,7 +1,7 @@
 station,temp,rain,wind_speed,wind_direction
 moro,--,0.3,0,360
 drmora,--,0.0,10,900
-apaseoelalto,--,0.0,3,112
+apaseoalto,--,0.0,3,112
 xichu,--,0.0,0,360
 atarjea,--,0.3,0,360
 villalpando,--,0.0,6,1125
