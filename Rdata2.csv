@@ -1,11 +1,2 @@
 station,temp,rain,wind_speed,wind_direction
-moro,--,0.3,0,360
-drmora,--,0.0,10,900
-apaseoalto,--,0.0,3,112
-xichu,--,0.0,0,360
-atarjea,--,0.3,0,360
-villalpando,--,0.0,6,1125
-silaocepc44,--,0.0,0,360
-tierrablanca,--,0.0,5,2902
-elalamo,--,1.0,8,3488
-enmsi,--,1.4,2,1102
+apaseoalto,5.0,5.0,9.0,NE
