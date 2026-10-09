@@ -1,0 +1,38 @@
+name: Scrape Weather Data
+
+on:
+  schedule:
+    - cron: '* * * * *' # Runs automatically at the top of every hour
+  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+
+permissions:
+  contents: write # Grants the bot permission to save the CSV to your repo
+
+jobs:
+  update-csv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Selenium
+        # Selenium 4+ automatically manages ChromeDriver for the cloud server
+        run: pip install selenium>=4.10.0
+
+      - name: Run Scraper
+        # This executes the Python script you uploaded
+        run: python scraper.py
+
+      - name: Commit and Push
+        # Checks if Rdata2.csv changed, and if so, commits it back to the repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Rdata2.csv
+          git diff --quiet && git diff --staged --quiet || git commit -m "Automated weather data update"
+          git push
