@@ -1,7 +1,7 @@
 station,temp,rain,wind_speed,wind_direction
 moro,10.0,0.0,--,0 °
 apaseoalto,17.0,0.0,9.0,NE 35 °
-atarjea,18.0,1.3,5.0,ENE 72 °
+atarjea,18.0,0.0,5.0,ENE 72 °
 doctormora,15.0,0.0,13.0,NE 46 °
 villalpando,10.0,0.0,17.0,ENE 60 °
 silaocepc44,18.0,0.0,6.0,NE 43 °
