@@ -1,2 +1,15 @@
-station,temp,rainr,wind_speed,wind_direction
-apaseoalto,25,0.0,6,NNE
+station,temp,rain,wind_speed,wind_direction
+moro,16,0.0,0,N
+villalpando,16,0.0,0,W
+sanfelipe,13,0.81,5,SE
+apaseoalto,22,0.0,3,WNW
+atarjea,25,0.0,5,NNE
+doctormora,21,0.0,6,NNW
+silaocepc44,23,0.0,5,WSW
+tierrablanca,25,0.0,2,E
+xichu,25,0.0,0,N
+elalamo,21,0.0,6,NNW
+arreguin,20,0.0,14,NW
+capulines,23,0.0,5,W
+pccelaya,23,0.0,0,N
+enmsi,25,0.0,5,SW
