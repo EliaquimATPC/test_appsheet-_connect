@@ -1,5 +1,5 @@
 station,temp,rain,wind_speed,wind_direction
-estado2,-2,0.0,13,NNE
+estado2,35,0.0,13,NNE
 estado3,0,0.0,8,NNE
 estado4,5,0.0,2,E
 estado5,15,0.0,8,NE
